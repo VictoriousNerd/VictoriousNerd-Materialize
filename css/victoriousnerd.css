@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ================================================== Nav == */
+header, main, footer {
+  padding-left: 300px;
+}
+nav {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b22f06+0,ff7c2a+100 */
+	background: #b22f06; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #b22f06 0%, #ff7c2a 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #b22f06 0%,#ff7c2a 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #b22f06 0%,#ff7c2a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b22f06', endColorstr='#ff7c2a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	padding-top: 12px;
+}
+ul.side-nav {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b22f06+0,ff7c2a+100 */
+	background: #b22f06; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #b22f06 0%, #ff7c2a 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #b22f06 0%,#ff7c2a 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #b22f06 0%,#ff7c2a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b22f06', endColorstr='#ff7c2a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.side-nav li > a.brand-logo {
+	height: auto;
+	line-height: normal;
+	padding: 15px 0;
+}
+.side-nav li > a {
+	color: #FFF;
+	font-weight: 100;
+	font-size: 18px;
+	letter-spacing: .5px;
+}
+.side-nav li > a > i,
+.side-nav li > a > i.material-icons {
+	margin: 0px;
+}
+.side-nav .collapsible-header, 
+.side-nav.fixed .collapsible-header {
+	padding: 0 32px;
+}
+.side-nav .collapsible-header:hover, 
+.side-nav.fixed .collapsible-header:hover,
+.side-nav li > a:hover {
+	background-color: rgba(255,255,255,0.15);
+}
+.side-nav li > a > i, 
+.side-nav li > a > [class^="mdi-"], 
+.side-nav li > a li > a > [class*="mdi-"], 
+.side-nav li > a > i.material-icons {
+	color: rgba(255,255,255,0.75);
+}
+.side-nav .collapsible-body, 
+.side-nav.fixed .collapsible-body {
+    border: 0;
+    background-color: rgba(255,255,255,0.25);
+}
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+	padding-left: 0;
+  }
+}
+@media only screen and (max-width : 600px) {
+	nav{
+		padding-top: 7px;
+	}
+}
+
+/* ================================================== Footer == */
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  main {
+    flex: 1 0 auto;
+  }
+.page-footer {
+	padding-top: 0px;
+	background-color: #333;
+}
